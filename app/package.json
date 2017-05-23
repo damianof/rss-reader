@@ -1,0 +1,15 @@
+{
+  "name": "rss-reader",
+  "version": "0.0.0",
+  "description": "Desktop RSS Reader made using Vue JS",
+  "main": "./dist/main.js",
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "vue": "^2.1.10",
+    "vue-electron": "^1.0.6",
+    "vue-router": "^2.1.2",
+    "vuex": "^2.1.1"
+  },
+  "devDependencies": {},
+  "author": "Meet Godhani <meetgodhani23@gmail.com>"
+}

@@ -1,9 +1,9 @@
 import * as types from './mutation-types'
 
-export const decrementMain = ({ commit }) => {
-  commit(types.DECREMENT_MAIN_COUNTER)
+export const setFeed = ({ commit }) => {
+  commit(types.SET_FEED)
 }
 
-export const incrementMain = ({ commit }) => {
-  commit(types.INCREMENT_MAIN_COUNTER)
+export const setStatus = ({ commit }, data) => {
+  commit(types.APP_STATUS, data)
 }

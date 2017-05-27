@@ -1,5 +1,6 @@
 {
   "name": "rss-reader",
+  "productName": "RSS Reader",
   "version": "0.0.0",
   "description": "Desktop RSS Reader made using Vue JS",
   "scripts": {

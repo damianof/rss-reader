@@ -45,170 +45,8 @@
     <main class="layout-background">
       <v-container fluid>
         <v-layout :align-center="true" :justify-center="true" wrap>
-          <v-flex xs12>
-            <v-list two-line class="list-bg elevation-1">
-              <v-list-item>
-                <v-list-tile avatar>
-                  <v-list-tile-avatar>
-                    <img src="https://www.google.com/s2/favicons?domain=www.techcrunch.com" />
-                  </v-list-tile-avatar>
-                  <v-list-tile-content>
-                    <v-list-tile-title> Title</v-list-tile-title>
-                    <v-list-tile-sub-title> sub title</v-list-tile-sub-title>
-                  </v-list-tile-content>
-                </v-list-tile>
-              </v-list-item>
-              <v-divider></v-divider>
-              <v-list-item>
-                <v-list-tile avatar>
-                  <v-list-tile-avatar>
-                    <img src="https://www.google.com/s2/favicons?domain=www.techcrunch.com" />
-                  </v-list-tile-avatar>
-                  <v-list-tile-content>
-                    <v-list-tile-title> Title</v-list-tile-title>
-                    <v-list-tile-sub-title> sub title</v-list-tile-sub-title>
-                  </v-list-tile-content>
-                </v-list-tile>
-              </v-list-item>
-              <v-divider></v-divider>
-              <v-list-item>
-                <v-list-tile avatar>
-                  <v-list-tile-avatar>
-                    <img src="https://www.google.com/s2/favicons?domain=www.techcrunch.com" />
-                  </v-list-tile-avatar>
-                  <v-list-tile-content>
-                    <v-list-tile-title> Title</v-list-tile-title>
-                    <v-list-tile-sub-title> sub title</v-list-tile-sub-title>
-                  </v-list-tile-content>
-                </v-list-tile>
-              </v-list-item>
-              <v-list-item>
-                <v-list-tile avatar>
-                  <v-list-tile-avatar>
-                    <img src="https://www.google.com/s2/favicons?domain=www.techcrunch.com" />
-                  </v-list-tile-avatar>
-                  <v-list-tile-content>
-                    <v-list-tile-title> Title</v-list-tile-title>
-                    <v-list-tile-sub-title> sub title</v-list-tile-sub-title>
-                  </v-list-tile-content>
-                </v-list-tile>
-              </v-list-item>
-              <v-divider></v-divider>
-              <v-list-item>
-                <v-list-tile avatar>
-                  <v-list-tile-avatar>
-                    <img src="https://www.google.com/s2/favicons?domain=www.techcrunch.com" />
-                  </v-list-tile-avatar>
-                  <v-list-tile-content>
-                    <v-list-tile-title> Title</v-list-tile-title>
-                    <v-list-tile-sub-title> sub title</v-list-tile-sub-title>
-                  </v-list-tile-content>
-                </v-list-tile>
-              </v-list-item>
-              <v-divider></v-divider>
-              <v-list-item>
-                <v-list-tile avatar>
-                  <v-list-tile-avatar>
-                    <img src="https://www.google.com/s2/favicons?domain=www.techcrunch.com" />
-                  </v-list-tile-avatar>
-                  <v-list-tile-content>
-                    <v-list-tile-title> Title</v-list-tile-title>
-                    <v-list-tile-sub-title> sub title</v-list-tile-sub-title>
-                  </v-list-tile-content>
-                </v-list-tile>
-              </v-list-item>
-              <v-divider></v-divider>
-              <v-list-item>
-                <v-list-tile avatar>
-                  <v-list-tile-avatar>
-                    <img src="https://www.google.com/s2/favicons?domain=www.techcrunch.com" />
-                  </v-list-tile-avatar>
-                  <v-list-tile-content>
-                    <v-list-tile-title> Title</v-list-tile-title>
-                    <v-list-tile-sub-title> sub title</v-list-tile-sub-title>
-                  </v-list-tile-content>
-                </v-list-tile>
-              </v-list-item>
-              <v-divider></v-divider>
-              <v-list-item>
-                <v-list-tile avatar>
-                  <v-list-tile-avatar>
-                    <img src="https://www.google.com/s2/favicons?domain=www.techcrunch.com" />
-                  </v-list-tile-avatar>
-                  <v-list-tile-content>
-                    <v-list-tile-title> Title</v-list-tile-title>
-                    <v-list-tile-sub-title> sub title</v-list-tile-sub-title>
-                  </v-list-tile-content>
-                </v-list-tile>
-              </v-list-item>
-              <v-divider></v-divider>
-              <v-list-item>
-                <v-list-tile avatar>
-                  <v-list-tile-avatar>
-                    <img src="https://www.google.com/s2/favicons?domain=www.techcrunch.com" />
-                  </v-list-tile-avatar>
-                  <v-list-tile-content>
-                    <v-list-tile-title> Title</v-list-tile-title>
-                    <v-list-tile-sub-title> sub title</v-list-tile-sub-title>
-                  </v-list-tile-content>
-                </v-list-tile>
-              </v-list-item>
-              <v-divider></v-divider>
-              <v-list-item>
-                <v-list-tile avatar>
-                  <v-list-tile-avatar>
-                    <img src="https://www.google.com/s2/favicons?domain=www.techcrunch.com" />
-                  </v-list-tile-avatar>
-                  <v-list-tile-content>
-                    <v-list-tile-title> Title</v-list-tile-title>
-                    <v-list-tile-sub-title> sub title</v-list-tile-sub-title>
-                  </v-list-tile-content>
-                </v-list-tile>
-              </v-list-item>
-              <v-divider></v-divider>
-              <v-list-item>
-                <v-list-tile avatar>
-                  <v-list-tile-avatar>
-                    <img src="https://www.google.com/s2/favicons?domain=www.techcrunch.com" />
-                  </v-list-tile-avatar>
-                  <v-list-tile-content>
-                    <v-list-tile-title> Title</v-list-tile-title>
-                    <v-list-tile-sub-title> sub title</v-list-tile-sub-title>
-                  </v-list-tile-content>
-                </v-list-tile>
-              </v-list-item>
-              <v-divider></v-divider>
-              <v-list-item>
-                <v-list-tile avatar>
-                  <v-list-tile-avatar>
-                    <img src="https://www.google.com/s2/favicons?domain=www.techcrunch.com" />
-                  </v-list-tile-avatar>
-                  <v-list-tile-content>
-                    <v-list-tile-title> Title</v-list-tile-title>
-                    <v-list-tile-sub-title> sub title</v-list-tile-sub-title>
-                  </v-list-tile-content>
-                </v-list-tile>
-              </v-list-item>
-              <v-divider></v-divider>
-              <v-list-item>
-                <v-list-tile avatar>
-                  <v-list-tile-avatar>
-                    <img src="https://www.google.com/s2/favicons?domain=www.techcrunch.com" />
-                  </v-list-tile-avatar>
-                  <v-list-tile-content>
-                    <v-list-tile-title> Title</v-list-tile-title>
-                    <v-list-tile-sub-title> sub title</v-list-tile-sub-title>
-                  </v-list-tile-content>
-                </v-list-tile>
-              </v-list-item>
-              <v-divider></v-divider>
-            </v-list>
-          </v-flex>
-          <v-btn floating class="pink darken--2 subscribe-btn">
-            <v-icon light>add</v-icon>
-          </v-btn>
+          <router-view></router-view>
         </v-layout>
-        <!-- <router-view></router-view> -->
       </v-container>
     </main>
   </v-app>
@@ -216,12 +54,22 @@
 
 <script>
 import store from 'renderer/vuex/store'
+import { ipcRenderer } from 'electron'
+
 export default {
   store,
   data () {
     return {
       drawer: true
     }
+  },
+  mounted () {
+    this.$nextTick(function () {
+      const self = this
+      ipcRenderer.on('online-status-check', (event, status) => {
+        self.$store.dispatch('setStatus', (status === 'offline'))
+      })
+    })
   }
 }
 </script>
@@ -241,13 +89,13 @@ $theme := {
 @import "../../node_modules/vuetify/src/stylus/main"
 
 .layout-background
-   background: $grey.lighten-2
+  background: $grey.lighten-2
 
 .list-bg
-   background: white
+  background: white
 
 .subscribe-btn
-    position fixed
-    bottom 15px
-    right 15px
+  position fixed
+  bottom 15px
+  right 15px
 </style>

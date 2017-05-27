@@ -1,6 +1,7 @@
 {
   "name": "rss-reader",
-  "version": "0.0.0",
+  "productName": "RSS Reader",
+  "version": "1.0.0",
   "description": "Desktop RSS Reader made using Vue JS",
   "main": "./dist/main.js",
   "dependencies": {
@@ -8,6 +9,7 @@
     "babel-runtime": "^6.23.0",
     "cheerio": "^0.22.0",
     "feedparser": "^2.2.0",
+    "fs-jetpack": "^1.0.0",
     "image-type": "^3.0.0",
     "lodash": "^4.17.4",
     "lowdb": "^0.16.2",

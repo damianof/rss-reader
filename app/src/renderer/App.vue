@@ -47,6 +47,13 @@
         <v-layout :align-center="true" :justify-center="true" wrap>
           <router-view></router-view>
         </v-layout>
+        <v-snackbar
+         :timeout="60000"
+         :bottom="true"
+          v-model="offline">
+          You are currently offline
+          <v-btn flat class="pink--text" @click.native="removeToast">Close</v-btn>
+        </v-snackbar>
       </v-container>
     </main>
   </v-app>
@@ -63,6 +70,11 @@ export default {
       drawer: true
     }
   },
+  computed: {
+    offline () {
+      return this.$store.state.offline.offline
+    }
+  },
   mounted () {
     this.$nextTick(function () {
       const self = this
@@ -70,6 +82,11 @@ export default {
         self.$store.dispatch('setStatus', (status === 'offline'))
       })
     })
+  },
+  methods: {
+    removeToast () {
+      this.$store.dispatch('setStatus', false)
+    }
   }
 }
 </script>

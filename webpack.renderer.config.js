@@ -31,6 +31,10 @@ let rendererConfig = {
         use: 'vue-html-loader'
       },
       {
+        test: /\.styl$/,
+        loader: ['style', 'css', 'stylus']
+      },
+      {
         test: /\.js$/,
         use: 'babel-loader',
         include: [ path.resolve(__dirname, 'app/src/renderer') ],
@@ -51,7 +55,8 @@ let rendererConfig = {
           options: {
             loaders: {
               sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax=1',
-              scss: 'vue-style-loader!css-loader!sass-loader'
+              scss: 'vue-style-loader!css-loader!sass-loader',
+              stylus: 'vue-style-loader!css-loader!stylus-loader'
             }
           }
         }

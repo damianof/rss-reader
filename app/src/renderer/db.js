@@ -32,15 +32,12 @@ export default class {
       if (!articleData && !tagData && !feedData) {
         return
       }
-
-      return this.loadDatabase(dbname)
     } else {
       this.useDataDir.write(dbname.article, '')
       this.useDataDir.write(dbname.tag, '')
       this.useDataDir.write(dbname.feed, '')
-
-      return this.loadDatabase(dbname)
     }
+    return this.loadDatabase(dbname)
   }
 
 /**

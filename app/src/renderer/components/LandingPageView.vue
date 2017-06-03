@@ -157,7 +157,7 @@
         </v-list-item>
         <v-divider></v-divider>
       </v-list>
-      <v-btn floating class="pink darken--2 subscribe-btn">
+      <v-btn floating class="pink darken--2 subscribe-btn" :disabled="$store.state.offline.offline">
         <v-icon light>add</v-icon>
       </v-btn>
     </v-flex>

@@ -2,7 +2,8 @@ import FeedParser from 'feedparser'
 import cheerio from 'cheerio'
 import got from 'got'
 import urlUtil from 'url'
-import iconv from 'iconv'
+import iconv from 'iconv-lite'
+import Stream from 'stream'
 import _ from 'lodash'
 
 export default class {
@@ -11,6 +12,32 @@ export default class {
   }
 
   streamFeed (body) {
+    let articles = []
+    let meta = {}
+    let s = new Stream()
+    s.readable = true
+    s.pipe(new FeedParser()).on('meta', (m) => {
+      meta.title = m.title
+      meta.description = m.description
+      meta.favicon = m.favicon
+      meta.link = m.link
+      meta.url = m.xmlUrl ? m.xmlUrl : this.url
+    }).on('readable', () => {
+      let stream = this
+      let item = stream.read()
+      while (item) {
+        articles.push(item)
+        item = stream.read()
+      }
+    })
+
+    s.emit('data', body)
+    s.emit('end')
+
+    return {
+      meta: meta,
+      articles: articles
+    }
   }
 
   findFeedUrlInHtml (body, url) {
